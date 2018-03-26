@@ -35,6 +35,7 @@ services:
     #   - '443:443'
     # volumes:
     #   - 'testlink_data:/bitnami'
+
     labels:
       io.rancher.sidekicks: testlink-data
     volumes_from:
